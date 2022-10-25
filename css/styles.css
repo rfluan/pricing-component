@@ -5,6 +5,54 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+:root {
+    --color-white: #f6f6fe;
+    --color-primary: linear-gradient(#a3a8f0 to rgb(105, 111, 221)); 
+    --color-light-blue: #b3b5c6;
+    --color-blue: #6d708d;
+    --color-dark-blue: #494c5f;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: var(--color-light-blue);
+}
+
+header {
+    display: flex;
+    text-align: center;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header span {
+    display: flex;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.container-card {
+    background-color: var(--color-white);
+    width: 200px;
+    height: 500px;
+}
+
+.attribution {
+    background-color: var(--color-blue);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
