@@ -43,16 +43,8 @@ main {
     height: 70vh;
 }
 
-.container-card {
+.card {
     background-color: var(--color-white);
     width: 200px;
     height: 500px;
-}
-
-.attribution {
-    background-color: var(--color-blue);
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
