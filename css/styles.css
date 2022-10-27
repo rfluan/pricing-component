@@ -15,7 +15,7 @@ a {
     --color-white: #f6f6fe;
     --color-primary: #696fdd;
     --color-primary-light: #a3a8f0;
-    --color-light-blue: #b3b5c6;
+    --color-light-blue: #acb1dd;
     --color-blue: #6d708d;
     --color-dark-blue: #494c5f;
 }
@@ -26,6 +26,17 @@ body {
     font-weight: 700;
     background-color: var(--color-light-blue);
     height: 100vh;
+    position: relative;
+}
+
+#svg-top {
+    position: absolute;
+    right: 0;
+}
+
+#svg-bottom {
+    position: absolute;
+    bottom: 0;
 }
 
 header {
