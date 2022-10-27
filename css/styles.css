@@ -12,10 +12,12 @@ a {
 
 :root {
     --color-white: #f6f6fe;
-    --color-primary: linear-gradient(#a3a8f0 to #696fdd); 
+    --color-primary: #696fdd; 
     --color-light-blue: #b3b5c6;
     --color-blue: #6d708d;
     --color-dark-blue: #494c5f;
+
+    --linear-gradient: #696fdd to #680928;
 }
 
 body {
@@ -29,6 +31,21 @@ header {
     display: flex;
     padding: 20px;
     margin-bottom: 10px;
+}
+
+header a {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 4px;
+    background-color: var(--color-white);
+    padding: 15px;
+    border-radius: 30px;
+    opacity: 0.8;
+}
+
+header a:hover {
+    opacity: 1;
 }
 
 #pricing {
@@ -96,6 +113,26 @@ main {
 
 .card {
     background-color: var(--color-white);
-    width: 200px;
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-primary {
+    background-color: var(--color-primary);
+    width: 350px;
     height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
 }
