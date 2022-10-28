@@ -3,12 +3,9 @@ const numberCards = document.querySelectorAll(".number-card")
 function clicou() {
   numberCards.forEach(card => {
     const cardInnerText = card.innerText.replace(',', '.')
-    const teste = cardInnerText.split(' ')[1]
-
-
-    console.log(parseFloat(teste))
-
-    // console.log(card.innerText)
-    
+    let teste = cardInnerText.split(' ')[1]
+    teste = parseFloat(teste) // transforma em quebrado
+    teste = teste * 11
+    card.innerText = teste.toFixed(2)
   });
 }
