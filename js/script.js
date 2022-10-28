@@ -1,5 +1,4 @@
 const numberCards = document.querySelectorAll(".number-card")
-const button = document.querySelector("#chk")
 
 function clicou() {
     numberCards.forEach(card => {
