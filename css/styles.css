@@ -15,7 +15,7 @@ a {
     --color-white: #f6f6fe;
     --color-primary: #696fdd;
     --color-primary-light: #a3a8f0;
-    --color-light-blue: #acb1dd;
+    --color-light-blue: #b9bff1;
     --color-blue: #6d708d;
     --color-dark-blue: #494c5f;
 }
@@ -68,6 +68,12 @@ header a:hover {
     align-items: center;
     padding: 20px;
     margin: 20px;
+    color: var(--color-blue);
+    cursor: default;
+}
+
+#pricing h2 {
+    font-size: 32px;
 }
 
 #pricing span#checkbox {
@@ -77,9 +83,7 @@ header a:hover {
     width: 250px;
     height: 100px;
 }
-#pricing p {
-    color: var(--color-dark-blue);
-}
+
 
 
 /* BUTTON CHECKBOX */
@@ -125,7 +129,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     position: absolute;
     bottom: 0;
 }
@@ -201,4 +205,10 @@ button:hover {
     border: 1px solid var(--color-white);
     color: var(--color-white);
     transition: all .5s;
+}
+
+@media screen and (max-width: 1100px) {
+    main {
+        flex-direction: column;
+    }
 }
