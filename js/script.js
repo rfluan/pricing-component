@@ -22,5 +22,4 @@ function isChecked() {
       card.innerText = `R$ ${card.innerText}`
     });
   }
-
 }
