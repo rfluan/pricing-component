@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
  Temos a opção do usuário escolher entre a opção de ver os valores mensais ou anuais com desconto.
 
-## 🖥️ [Veja o site no ar](https://github.com/rfluan/pricing-component)
+## 🖥️ [Veja o site no ar](https://rfluan.github.io/pricing-component/)
 ![foto](./.github/capa.jpg)
 
 ## :memo: Licença
