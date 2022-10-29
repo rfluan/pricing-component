@@ -26,6 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
  Temos a opção do usuário escolher entre a opção de ver os valores mensais ou anuais com desconto.
 
+<<<<<<< HEAD
 ## 🖥️ [Veja o site no ar](https://rfluan.github.io/portfolio/)
 ![foto](./.github/capa-photoshop.jpg)
 
